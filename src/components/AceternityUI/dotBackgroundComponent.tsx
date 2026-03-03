@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils";
-import React from "react";
+// import React from "react";
 import EncryptedTextDemoSecond from "./encryptedCompoment";
 
 export default function DotBackgroundDemo() {

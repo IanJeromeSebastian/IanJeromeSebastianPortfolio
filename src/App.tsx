@@ -5,7 +5,6 @@ import {
   Instagram,
   Linkedin,
   Mail,
-  MessageCircle,
 } from "lucide-react";
 import EncryptedTextDemoSecond from "./components/AceternityUI/encryptedCompoment";
 import ExpandableCardDemo from "./components/AceternityUI/expandable-card-demo-grid";

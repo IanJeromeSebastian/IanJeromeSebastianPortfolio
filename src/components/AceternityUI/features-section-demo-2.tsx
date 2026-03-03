@@ -13,7 +13,7 @@ import {
   IconBrandReact,
   IconBrandReactNative,
   IconRocket, // For Expo
-  IconLayersIntersect,
+  // IconLayersIntersect,
   IconBrandVite,
   IconSparkles, // For Aceternity
 } from "@tabler/icons-react";

@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import { DottedGlowBackground } from "@/ui/dotted-glow-background";
 
 export default function DottedGlowBackgroundDemo() {
