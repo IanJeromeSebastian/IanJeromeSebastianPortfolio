@@ -103,7 +103,7 @@ function App() {
 
           <div className="md:col-span-6 flex flex-col items-center text-center">
             <h2 className="text-5xl md:text-7xl font-bold mb-10">
-              About the technologies I use
+              About my Tech Stack
             </h2>
 
             <p className="max-w-xl text-neutral-400 text-lg leading-relaxed">

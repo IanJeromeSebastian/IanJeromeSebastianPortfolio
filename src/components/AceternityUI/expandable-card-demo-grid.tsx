@@ -6,6 +6,7 @@ import { AnimatePresence, motion } from "motion/react";
 import { useOutsideClick } from "@/hooks/use-outside-click";
 import project1 from "../../assets/project-1.png";
 import todonato from "../../assets/Todonato.png";
+import crud from "../../assets/crud.png";
 
 export default function ExpandableCardDemo() {
   const [active, setActive] = useState<(typeof cards)[number] | boolean | null>(
@@ -256,6 +257,27 @@ const cards = [
           React Native. Built as a personal side project, it demonstrates my
           skills in mobile app development, state management, and UI
           implementation while maintaining a clean and intuitive design.
+        </p>
+      );
+    },
+  },
+  {
+    description: "",
+    title: "Simple Crud Website",
+    src: crud,
+    ctaText: "Github",
+    ctaLink: "https://github.com/IanJeromeSebastian/simple-crud-website",
+    appText: "Web",
+    appLink:
+      "https://simple-crud-website.vercel.app/",
+    content: () => {
+      return (
+        <p>
+          Although I specialize in frontend development, I created this 
+          simple CRUD web application with a custom backend API to expand 
+          my knowledge of full-stack development. The project demonstrates 
+          fundamental CRUD operations and showcases key concepts such as data 
+          management, API integration, and client-server communication.
         </p>
       );
     },
